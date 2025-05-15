@@ -46,7 +46,7 @@ class Dog extends Animal {
         super(name, medicalRecordName);
     }
 
-    // Method dengan nama sama, tapi tidak pakai anotasi @Override
+    
     public void makeSound() {
         System.out.println("Gok-Gok!");
     }
